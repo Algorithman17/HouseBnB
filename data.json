@@ -1,4 +1,5 @@
-{ "anounces":[
+{
+  "anounces": [
     {
       "id": 1,
       "title": "Maison moderne avec piscine privée",
@@ -8,7 +9,8 @@
       "accommodates": 8,
       "parking": "Privé",
       "amenities": ["Piscine", "Wi-Fi", "Cuisine équipée", "Climatisation"],
-      "photo": "https://example.com/photos/maison-piscine-nice.jpg"
+      "photo": "maison1.jpg",
+      "price_per_night": 350
     },
     {
       "id": 2,
@@ -19,7 +21,8 @@
       "accommodates": 6,
       "parking": "Gratuit sur place",
       "amenities": ["Cheminée", "Vue montagne", "Terrasse", "Jacuzzi"],
-      "photo": "https://example.com/photos/chalet-montagne-chamonix.jpg"
+      "photo": "maison2.jpg",
+      "price_per_night": 280
     },
     {
       "id": 3,
@@ -30,7 +33,8 @@
       "accommodates": 4,
       "parking": "Pas de parking",
       "amenities": ["Balcon", "Climatisation", "Wi-Fi", "Proche plage"],
-      "photo": "https://example.com/photos/appartement-mer-marseille.jpg"
+      "photo": "maison3.jpg",
+      "price_per_night": 200
     },
     {
       "id": 4,
@@ -41,7 +45,8 @@
       "accommodates": 3,
       "parking": "Public à proximité",
       "amenities": ["Wi-Fi", "Cuisine moderne", "Design industriel", "Ascenseur"],
-      "photo": "https://example.com/photos/loft-industriel-lyon.jpg"
+      "photo": "maison4.jpg",
+      "price_per_night": 180
     },
     {
       "id": 5,
@@ -52,7 +57,8 @@
       "accommodates": 10,
       "parking": "Privé",
       "amenities": ["Jardin", "Piscine", "Barbecue", "Salle de jeux"],
-      "photo": "https://example.com/photos/villa-jardin-toulouse.jpg"
+      "photo": "maison5.jpg",
+      "price_per_night": 400
     },
     {
       "id": 6,
@@ -63,7 +69,8 @@
       "accommodates": 5,
       "parking": "Gratuit",
       "amenities": ["Cheminée", "Terrasse", "Vue sur les champs", "Cuisine équipée"],
-      "photo": "https://example.com/photos/maison-campagne-provence.jpg"
+      "photo": "maison6.jpg",
+      "price_per_night": 220
     },
     {
       "id": 7,
@@ -74,7 +81,8 @@
       "accommodates": 6,
       "parking": "Public payant",
       "amenities": ["Balcon", "Wi-Fi", "Ascenseur", "Climatisation"],
-      "photo": "https://example.com/photos/penthouse-paris.jpg"
+      "photo": "maison7.jpg",
+      "price_per_night": 500
     },
     {
       "id": 8,
@@ -85,7 +93,8 @@
       "accommodates": 4,
       "parking": "Gratuit",
       "amenities": ["Jardin", "Animaux acceptés", "Barbecue", "Randonnées à proximité"],
-      "photo": "https://example.com/photos/gite-ardeche-nature.jpg"
+      "photo": "maison8.jpg",
+      "price_per_night": 150
     },
     {
       "id": 9,
@@ -96,7 +105,8 @@
       "accommodates": 2,
       "parking": "Public",
       "amenities": ["Proche ski", "Wi-Fi", "Cuisine équipée"],
-      "photo": "https://example.com/photos/studio-ski-annecy.jpg"
+      "photo": "maison9.jpg",
+      "price_per_night": 120
     },
     {
       "id": 10,
@@ -107,118 +117,128 @@
       "accommodates": 2,
       "parking": "Gratuit",
       "amenities": ["Nature", "Cheminée", "Randonnée", "Animaux acceptés"],
-      "photo": "https://example.com/photos/cabane-bois-dordogne.jpg"
+      "photo": "maison10.jpg",
+      "price_per_night": 100
     },
     {
-        "id": 11,
-        "title": "Appartement design en bord de mer",
-        "place": "Cannes, France",
-        "rooms": 2,
-        "available": true,
-        "accommodates": 4,
-        "parking": "Privé",
-        "amenities": ["Wi-Fi", "Balcon vue mer", "Climatisation", "Cuisine moderne"],
-        "photo": "https://example.com/photos/appartement-mer-cannes.jpg"
-      },
-      {
-        "id": 12,
-        "title": "Maison historique au cœur de la ville",
-        "place": "Bordeaux, France",
-        "rooms": 3,
-        "available": false,
-        "accommodates": 6,
-        "parking": "Gratuit",
-        "amenities": ["Jardin", "Cheminée", "Wi-Fi", "Proche restaurants"],
-        "photo": "https://example.com/photos/maison-historique-bordeaux.jpg"
-      },
-      {
-        "id": 13,
-        "title": "Villa moderne avec rooftop",
-        "place": "Montpellier, France",
-        "rooms": 4,
-        "available": true,
-        "accommodates": 8,
-        "parking": "Privé",
-        "amenities": ["Rooftop", "Piscine", "Climatisation", "Vue panoramique"],
-        "photo": "https://example.com/photos/villa-rooftop-montpellier.jpg"
-      },
-      {
-        "id": 14,
-        "title": "Tiny house écologique",
-        "place": "Auvergne, France",
-        "rooms": 1,
-        "available": true,
-        "accommodates": 2,
-        "parking": "Gratuit",
-        "amenities": ["Nature", "Éco-responsable", "Terrasse", "Randonnée"],
-        "photo": "https://example.com/photos/tiny-house-auvergne.jpg"
-      },
-      {
-        "id": 15,
-        "title": "Cottage romantique avec spa privé",
-        "place": "Normandie, France",
-        "rooms": 2,
-        "available": false,
-        "accommodates": 4,
-        "parking": "Privé",
-        "amenities": ["Spa", "Cheminée", "Jardin", "Wi-Fi"],
-        "photo": "https://example.com/photos/cottage-spa-normandie.jpg"
-      },
-      {
-        "id": 16,
-        "title": "Penthouse luxueux avec jacuzzi",
-        "place": "Nice, France",
-        "rooms": 3,
-        "available": true,
-        "accommodates": 6,
-        "parking": "Payant",
-        "amenities": ["Jacuzzi", "Vue mer", "Balcon", "Wi-Fi haut débit"],
-        "photo": "https://example.com/photos/penthouse-jacuzzi-nice.jpg"
-      },
-      {
-        "id": 17,
-        "title": "Cabane en bord de lac",
-        "place": "Savoie, France",
-        "rooms": 2,
-        "available": true,
-        "accommodates": 5,
-        "parking": "Gratuit",
-        "amenities": ["Lac privé", "Barbecue", "Pêche", "Cheminée"],
-        "photo": "https://example.com/photos/cabane-lac-savoie.jpg"
-      },
-      {
-        "id": 18,
-        "title": "Appartement cosy proche des musées",
-        "place": "Lille, France",
-        "rooms": 1,
-        "available": true,
-        "accommodates": 3,
-        "parking": "Public",
-        "amenities": ["Wi-Fi", "Proche centre-ville", "Cuisine équipée"],
-        "photo": "https://example.com/photos/appartement-cosy-lille.jpg"
-      },
-      {
-        "id": 19,
-        "title": "Ferme rénovée avec piscine",
-        "place": "Alsace, France",
-        "rooms": 5,
-        "available": false,
-        "accommodates": 10,
-        "parking": "Privé",
-        "amenities": ["Piscine chauffée", "Jardin", "Cuisine campagnarde", "Animaux acceptés"],
-        "photo": "https://example.com/photos/ferme-piscine-alsace.jpg"
-      },
-      {
-        "id": 20,
-        "title": "Maison troglodyte unique",
-        "place": "Loire Valley, France",
-        "rooms": 3,
-        "available": true,
-        "accommodates": 6,
-        "parking": "Gratuit",
-        "amenities": ["Cave naturelle", "Cheminée", "Wi-Fi", "Hébergement unique"],
-        "photo": "https://example.com/photos/maison-troglodyte-loire.jpg"
-      }
+      "id": 11,
+      "title": "Appartement design en bord de mer",
+      "place": "Cannes, France",
+      "rooms": 2,
+      "available": true,
+      "accommodates": 4,
+      "parking": "Privé",
+      "amenities": ["Wi-Fi", "Balcon vue mer", "Climatisation", "Cuisine moderne"],
+      "photo": "maison11.jpg",
+      "price_per_night": 300
+    },
+    {
+      "id": 12,
+      "title": "Maison historique au cœur de la ville",
+      "place": "Bordeaux, France",
+      "rooms": 3,
+      "available": false,
+      "accommodates": 6,
+      "parking": "Gratuit",
+      "amenities": ["Jardin", "Cheminée", "Wi-Fi", "Proche restaurants"],
+      "photo": "maison12.jpg",
+      "price_per_night": 250
+    },
+    {
+      "id": 13,
+      "title": "Villa moderne avec rooftop",
+      "place": "Montpellier, France",
+      "rooms": 4,
+      "available": true,
+      "accommodates": 8,
+      "parking": "Privé",
+      "amenities": ["Rooftop", "Piscine", "Climatisation", "Vue panoramique"],
+      "photo": "maison13.jpg",
+      "price_per_night": 450
+    },
+    {
+      "id": 14,
+      "title": "Tiny house écologique",
+      "place": "Auvergne, France",
+      "rooms": 1,
+      "available": true,
+      "accommodates": 2,
+      "parking": "Gratuit",
+      "amenities": ["Nature", "Éco-responsable", "Terrasse", "Randonnée"],
+      "photo": "maison14.jpg",
+      "price_per_night": 130
+    },
+    {
+      "id": 15,
+      "title": "Cottage romantique avec spa privé",
+      "place": "Normandie, France",
+      "rooms": 2,
+      "available": false,
+      "accommodates": 4,
+      "parking": "Privé",
+      "amenities": ["Spa", "Cheminée", "Jardin", "Wi-Fi"],
+      "photo": "maison15.jpg",
+      "price_per_night": 300
+    },
+    {
+      "id": 16,
+      "title": "Penthouse luxueux avec jacuzzi",
+      "place": "Nice, France",
+      "rooms": 3,
+      "available": true,
+      "accommodates": 6,
+      "parking": "Payant",
+      "amenities": ["Jacuzzi", "Vue mer", "Balcon", "Wi-Fi haut débit"],
+      "photo": "maison16.jpg",
+      "price_per_night": 500
+    },
+    {
+      "id": 17,
+      "title": "Cabane en bord de lac",
+      "place": "Savoie, France",
+      "rooms": 2,
+      "available": true,
+      "accommodates": 5,
+      "parking": "Gratuit",
+      "amenities": ["Lac privé", "Barbecue", "Pêche", "Cheminée"],
+      "photo": "maison17.jpg",
+      "price_per_night": 180
+    },
+    {
+      "id": 18,
+      "title": "Appartement cosy proche des musées",
+      "place": "Lille, France",
+      "rooms": 1,
+      "available": true,
+      "accommodates": 3,
+      "parking": "Public",
+      "amenities": ["Wi-Fi", "Proche centre-ville", "Cuisine équipée"],
+      "photo": "maison18.jpg",
+      "price_per_night": 150
+    },
+    {
+      "id": 19,
+      "title": "Ferme rénovée avec piscine",
+      "place": "Alsace, France",
+      "rooms": 5,
+      "available": false,
+      "accommodates": 10,
+      "parking": "Privé",
+      "amenities": ["Piscine chauffée", "Jardin", "Cuisine campagnarde", "Animaux acceptés"],
+      "photo": "maison19.jpg",
+      "price_per_night": 400
+    },
+    {
+      "id": 20,
+      "title": "Maison troglodyte unique",
+      "place": "Loire Valley, France",
+      "rooms": 3,
+      "available": true,
+      "accommodates": 6,
+      "parking": "Gratuit",
+      "amenities": ["Cave naturelle", "Cheminée", "Wi-Fi", "Hébergement unique"],
+      "photo": "maison20.jpg",
+      "price_per_night": 350
+    }
   ]
 }
-  
