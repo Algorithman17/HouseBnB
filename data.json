@@ -10,7 +10,11 @@
       "parking": "Privé",
       "amenities": ["Piscine", "Wi-Fi", "Cuisine équipée", "Climatisation"],
       "photo": "maison1.jpg",
-      "price_per_night": 350
+      "price_per_night": 350,
+      "availability_range": {
+        "month": "Janvier",
+        "days": [5, 20]
+      }
     },
     {
       "id": 2,
@@ -22,7 +26,11 @@
       "parking": "Gratuit sur place",
       "amenities": ["Cheminée", "Vue montagne", "Terrasse", "Jacuzzi"],
       "photo": "maison2.jpg",
-      "price_per_night": 280
+      "price_per_night": 280,
+      "availability_range": {
+        "month": "Février",
+        "days": [15, 28]
+      }
     },
     {
       "id": 3,
@@ -34,7 +42,11 @@
       "parking": "Pas de parking",
       "amenities": ["Balcon", "Climatisation", "Wi-Fi", "Proche plage"],
       "photo": "maison3.jpg",
-      "price_per_night": 200
+      "price_per_night": 200,
+      "availability_range": {
+        "month": "Mars",
+        "days": [10, 25]
+      }
     },
     {
       "id": 4,
@@ -46,7 +58,11 @@
       "parking": "Public à proximité",
       "amenities": ["Wi-Fi", "Cuisine moderne", "Design industriel", "Ascenseur"],
       "photo": "maison4.jpg",
-      "price_per_night": 180
+      "price_per_night": 180,
+      "availability_range": {
+        "month": "Avril",
+        "days": [1, 15]
+      }
     },
     {
       "id": 5,
@@ -58,7 +74,11 @@
       "parking": "Privé",
       "amenities": ["Jardin", "Piscine", "Barbecue", "Salle de jeux"],
       "photo": "maison5.jpg",
-      "price_per_night": 400
+      "price_per_night": 400,
+      "availability_range": {
+        "month": "Mai",
+        "days": [5, 30]
+      }
     },
     {
       "id": 6,
@@ -70,7 +90,11 @@
       "parking": "Gratuit",
       "amenities": ["Cheminée", "Terrasse", "Vue sur les champs", "Cuisine équipée"],
       "photo": "maison6.jpg",
-      "price_per_night": 220
+      "price_per_night": 220,
+      "availability_range": {
+        "month": "Juin",
+        "days": [10, 25]
+      }
     },
     {
       "id": 7,
@@ -82,7 +106,11 @@
       "parking": "Public payant",
       "amenities": ["Balcon", "Wi-Fi", "Ascenseur", "Climatisation"],
       "photo": "maison7.jpg",
-      "price_per_night": 500
+      "price_per_night": 500,
+      "availability_range": {
+        "month": "Septembre",
+        "days": [3, 18]
+      }
     },
     {
       "id": 8,
@@ -94,7 +122,11 @@
       "parking": "Gratuit",
       "amenities": ["Jardin", "Animaux acceptés", "Barbecue", "Randonnées à proximité"],
       "photo": "maison8.jpg",
-      "price_per_night": 150
+      "price_per_night": 150,
+      "availability_range": {
+        "month": "Novembre",
+        "days": [7, 22]
+      }
     },
     {
       "id": 9,
@@ -106,7 +138,11 @@
       "parking": "Public",
       "amenities": ["Proche ski", "Wi-Fi", "Cuisine équipée"],
       "photo": "maison9.jpg",
-      "price_per_night": 120
+      "price_per_night": 120,
+      "availability_range": {
+        "month": "Décembre",
+        "days": [12, 28]
+      }
     },
     {
       "id": 10,
@@ -118,7 +154,11 @@
       "parking": "Gratuit",
       "amenities": ["Nature", "Cheminée", "Randonnée", "Animaux acceptés"],
       "photo": "maison10.jpg",
-      "price_per_night": 100
+      "price_per_night": 100,
+      "availability_range": {
+        "month": "Mars",
+        "days": [1, 14]
+      }
     },
     {
       "id": 11,
@@ -130,7 +170,11 @@
       "parking": "Privé",
       "amenities": ["Wi-Fi", "Balcon vue mer", "Climatisation", "Cuisine moderne"],
       "photo": "maison11.jpg",
-      "price_per_night": 300
+      "price_per_night": 300,
+      "availability_range": {
+        "month": "Août",
+        "days": [5, 19]
+      }
     },
     {
       "id": 12,
@@ -142,7 +186,11 @@
       "parking": "Gratuit",
       "amenities": ["Jardin", "Cheminée", "Wi-Fi", "Proche restaurants"],
       "photo": "maison12.jpg",
-      "price_per_night": 250
+      "price_per_night": 250,
+      "availability_range": {
+        "month": "Mai",
+        "days": [15, 30]
+      }
     },
     {
       "id": 13,
@@ -154,7 +202,11 @@
       "parking": "Privé",
       "amenities": ["Rooftop", "Piscine", "Climatisation", "Vue panoramique"],
       "photo": "maison13.jpg",
-      "price_per_night": 450
+      "price_per_night": 450,
+      "availability_range": {
+        "month": "Février",
+        "days": [10, 25]
+      }
     },
     {
       "id": 14,
@@ -166,7 +218,11 @@
       "parking": "Gratuit",
       "amenities": ["Nature", "Éco-responsable", "Terrasse", "Randonnée"],
       "photo": "maison14.jpg",
-      "price_per_night": 130
+      "price_per_night": 130,
+      "availability_range": {
+        "month": "Octobre",
+        "days": [3, 20]
+      }
     },
     {
       "id": 15,
@@ -178,7 +234,11 @@
       "parking": "Privé",
       "amenities": ["Spa", "Cheminée", "Jardin", "Wi-Fi"],
       "photo": "maison15.jpg",
-      "price_per_night": 300
+      "price_per_night": 300,
+      "availability_range": {
+        "month": "Décembre",
+        "days": [5, 15]
+      }
     },
     {
       "id": 16,
@@ -190,7 +250,11 @@
       "parking": "Payant",
       "amenities": ["Jacuzzi", "Vue mer", "Balcon", "Wi-Fi haut débit"],
       "photo": "maison16.jpg",
-      "price_per_night": 500
+      "price_per_night": 500,
+      "availability_range": {
+        "month": "Juin",
+        "days": [8, 22]
+      }
     },
     {
       "id": 17,
@@ -202,7 +266,11 @@
       "parking": "Gratuit",
       "amenities": ["Lac privé", "Barbecue", "Pêche", "Cheminée"],
       "photo": "maison17.jpg",
-      "price_per_night": 180
+      "price_per_night": 180,
+      "availability_range": {
+        "month": "Janvier",
+        "days": [2, 17]
+      }
     },
     {
       "id": 18,
@@ -214,7 +282,11 @@
       "parking": "Public",
       "amenities": ["Wi-Fi", "Proche centre-ville", "Cuisine équipée"],
       "photo": "maison18.jpg",
-      "price_per_night": 150
+      "price_per_night": 150,
+      "availability_range": {
+        "month": "Avril",
+        "days": [10, 24]
+      }
     },
     {
       "id": 19,
@@ -226,7 +298,11 @@
       "parking": "Privé",
       "amenities": ["Piscine chauffée", "Jardin", "Cuisine campagnarde", "Animaux acceptés"],
       "photo": "maison19.jpg",
-      "price_per_night": 400
+      "price_per_night": 400,
+      "availability_range": {
+        "month": "Juillet",
+        "days": [5, 19]
+      }
     },
     {
       "id": 20,
@@ -238,7 +314,11 @@
       "parking": "Gratuit",
       "amenities": ["Cave naturelle", "Cheminée", "Wi-Fi", "Hébergement unique"],
       "photo": "maison20.jpg",
-      "price_per_night": 350
+      "price_per_night": 350,
+      "availability_range": {
+        "month": "Mars",
+        "days": [12, 27]
+      }
     }
   ]
 }
