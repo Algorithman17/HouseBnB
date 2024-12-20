@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        .logo-container {
+            position: relative;
+            a {
+                display: flex;
+                align-items: center; 
+                font-size: 24px;
+                color: #87bdd8;
+                font-weight: 600;
+                letter-spacing: -2px;
+
+                img {
+                    margin-right: 4px;
+                }
+            }
+            
+        }
+
+        .search-bar {
+            display: flex;
+            background-color: #f6f6f6;
+            border-radius: 40px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            transform: translateX(-50%);
+
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+
+            label {
+                font-size: 12px;
+            }
+
+            input:not(input#nav-search) {
+                border-color: #87bdd8;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            .search-destination, .search-arrival, .search-leaving {
+                padding: 10px 0px 10px 30px
+            }
+            
+            .searching {
+                margin-left: 30px;
+                width: 70px;
+
+                input {
+                    border: 0;
+                    width: 70px;
+                    height: 100%;
+                    background-color: #87bdd8;
+                    border-radius: 35px;
+                    background-image: url(/icones/search.svg);
+                    background-repeat: no-repeat;
+                    background-size: 40px;
+                    background-position: center;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        select {
+            font-size: 0.9rem;
+            padding: 2px 5px;
+            width: 55px;
+            height: 55px;
+            border-radius: 100px;
+            appearance: none;
+            background-image: url("/icones/icon-user.png");
+            background-repeat: no-repeat;
+            background-size: 55px;
+            border: none;
+            text-decoration: none;
+            outline: none;
+        } 
+    }
+
+    main {
+        position: relative;
+        margin-top: 40px;
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            
+
+            .card {
+                width: 300px;
+                background-color: #f6f6f6;
+                border-radius: 10px;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.05);
+                    box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.5);
+
+                    .price {
+
+                        span {
+                            background-color: #87bdd8;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+
+                .photoDiv {
+                    width: 100%;
+                    height: 200px;
+
+                    img {
+                        width: 100%;
+                        height: 200px;
+                        border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;
+                    }
+                }
+
+                .infos {
+                    padding: 10px;
+            
+                    h3 {
+                        font-size: 14px;
+                    }
+
+                    p {
+                        color: #252525;
+                        font-size: 14px;
+                    }
+                    
+                }
+                    
+            }
+        }
+
+        #map {
+            height: 80vh;
+        }
+
+        .open-map {
+        background-color: #252525;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 14px;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+
+            a {
+                color: White;
+            
+                p {
+                    display: flex;
+                    align-items: center;
+                
+                    img {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+    
+      

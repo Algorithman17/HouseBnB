@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+body nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+body nav .logo-container {
+  position: relative;
+}
+body nav .logo-container a {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #87bdd8;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+body nav .logo-container a img {
+  margin-right: 4px;
+}
+body nav .search-bar {
+  display: flex;
+  background-color: #f6f6f6;
+  border-radius: 40px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+body nav .search-bar div {
+  display: flex;
+  flex-direction: column;
+}
+body nav .search-bar label {
+  font-size: 12px;
+}
+body nav .search-bar input:not(input#nav-search) {
+  border-color: #87bdd8;
+  border-radius: 5px;
+  padding: 5px;
+}
+body nav .search-bar .search-destination, body nav .search-bar .search-arrival, body nav .search-bar .search-leaving {
+  padding: 10px 0px 10px 30px;
+}
+body nav .search-bar .searching {
+  margin-left: 30px;
+  width: 70px;
+}
+body nav .search-bar .searching input {
+  border: 0;
+  width: 70px;
+  height: 100%;
+  background-color: #87bdd8;
+  border-radius: 35px;
+  background-image: url(/icones/search.svg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: center;
+}
+body nav .search-bar .searching input:hover {
+  cursor: pointer;
+}
+body nav select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url("/icones/icon-user.png");
+  background-repeat: no-repeat;
+  background-size: 55px;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+body main {
+  position: relative;
+  margin-top: 40px;
+}
+body main .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+body main .cards .card {
+  width: 300px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+}
+body main .cards .card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.5);
+}
+body main .cards .card:hover .price span {
+  background-color: #87bdd8;
+  border-radius: 5px;
+}
+body main .cards .card .photoDiv {
+  width: 100%;
+  height: 200px;
+}
+body main .cards .card .photoDiv img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+body main .cards .card .infos {
+  padding: 10px;
+}
+body main .cards .card .infos h3 {
+  font-size: 14px;
+}
+body main .cards .card .infos p {
+  color: #252525;
+  font-size: 14px;
+}
+body main #map {
+  height: 80vh;
+}
+body main .open-map {
+  background-color: #252525;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+body main .open-map a {
+  color: White;
+}
+body main .open-map a p {
+  display: flex;
+  align-items: center;
+}
+body main .open-map a p img {
+  margin-left: 5px;
+}/*# sourceMappingURL=style.css.map */
